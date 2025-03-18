@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            width: 80%;
+            max-width: 800px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Prediction</h1>
+    <img src="{{ url_for('static', filename='images/GOOG.png') }}" alt="Stock Chart">
+    <img src="{{ url_for('static', filename='images/AMD.png') }}" alt="Stock Chart">
+    <br>
+    <img src="{{ url_for('static', filename='images/NVDA.png') }}" alt="Stock Chart">
+    <img src="{{ url_for('static', filename='images/AAPL.png') }}" alt="Stock Chart">
+    <br>
+    <img src="{{ url_for('static', filename='images/MSFT.png') }}" alt="Stock Chart">
+
+</body>
+</html>
